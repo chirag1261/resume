@@ -1,0 +1,99 @@
+\documentclass{resume}
+
+\usepackage[left=0.4in,top=0.25in,right=0.4in,bottom=0.25in]{geometry}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Chirag Kumar}
+\address{+91 7323058176 \quad $|$ \quad Gurugram, India \quad $|$ \quad \href{mailto:chiragkrkashyap@gmail.com}{chiragkrkashyap@gmail.com} \quad $|$ \quad \href{https://github.com/chirag1261}{Github} \quad $|$ \quad \href{https://linkedin.com/in/chirag-kr}{Linkedin} \quad $|$ \quad \href{https://chiragkrkashyap.co.in/}{Portfolio}}
+
+\begin{document}
+
+\vspace{1pt}
+
+%--- SKILLS ---
+\begin{rSection}{Skills}
+\vspace{-5pt}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
+Core            & React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3 \\
+Frameworks \& UI & Next.js, Tailwind CSS, Bootstrap, PrimeReact, GSAP, Redux Saga, Redux Toolkit \\
+Architecture    & Component-Driven \& Feature-Driven Design, Clean Architecture, Monorepo, LLD, RBAC \\
+Testing \& Perf & Lighthouse CI, Puppeteer, Web Vitals, Accessibility (a11y), Cross-browser Compatibility \\
+Tools           & Claude Code, GitHub Copilot, Agentic AI Workflows, Git, AWS, Postman, Mockoon \\
+\end{tabular}
+\vspace{-6pt}
+\end{rSection}
+
+\vspace{1pt}
+%--- EXPERIENCE ---
+\begin{rSection}{Work Experience}
+\vspace{-3pt}
+
+\begin{tabularx}{\textwidth}{@{} X r @{}}
+\textbf{SDE 2 --- Frontend Engineer} & \textbf{Jan 2026 -- Present} \\
+Junglee Games & \textit{Gurugram, India}
+\end{tabularx}
+\begin{itemize}[leftmargin=1em,itemsep=-4pt,topsep=2pt]
+    \item Architected a reusable component system powering a \textbf{promo code \& discount platform} for \textbf{800K+ users}, with dynamic forms, configurable validation, and multi-code stacking.
+    \item Owned \textbf{end-to-end payment gateway integration} (retries, failure handling, reconciliation), \textbf{cutting failed-transaction drop-offs}.
+    \item Instrumented \textbf{conversion tracking across 3 core funnels} (registration, deposit, gameplay), unlocking spend attribution and campaign ROI visibility.
+    \item Led migration to a \textbf{feature-based modular architecture} spanning \textbf{60+ admin screens} across \textbf{24 feature domains}, consolidating duplicated UI into shared libraries.
+    \item Unified web and mobile delivery into a \textbf{single monorepo} with shared auth, state, and utility packages.
+    \item Shipped \textbf{Instant Wins} prize flows and a \textbf{daily spin-to-win coin-credit system} with cooldown-gated eligibility.
+\end{itemize}
+\vspace{2pt}
+
+\begin{tabularx}{\textwidth}{@{} X r @{}}
+\textbf{SDE 1 --- Frontend Engineer} & \textbf{Aug 2024 -- Dec 2025} \\
+Junglee Games & \textit{Gurugram, India}
+\end{tabularx}
+\begin{itemize}[leftmargin=1em,itemsep=-4pt,topsep=2pt]
+    \item Delivered \textbf{4 gamified engagement features} --- Spin the Wheel, Slot Machine, Streak Challenge, Drop or Not --- with real-time state sync and full accessibility support.
+    \item Built \textbf{schema-driven UI component libraries} adopted across \textbf{multiple product teams}, cutting feature build time and redundant implementations.
+    \item Implemented \textbf{role-based access control spanning 20+ granular permissions} with time-gated visibility rules; \textbf{mentored junior developers} on architecture standards.
+\end{itemize}
+\vspace{2pt}
+
+\begin{tabularx}{\textwidth}{@{} X r @{}}
+\textbf{Frontend Developer} & \textbf{Jan 2024 -- Jul 2024} \\
+Fly Realty & \textit{Bangalore, India}
+\end{tabularx}
+\begin{itemize}[leftmargin=1em,itemsep=-4pt,topsep=2pt]
+    \item Shipped a \textbf{production real-estate web platform} end to end, owning responsive layouts, async state management, and cross-browser compatibility.
+    \item Automated \textbf{performance and accessibility CI pipelines} gating builds on Lighthouse and a11y thresholds, \textbf{preventing regressions} pre-release; built a \textbf{web-to-native bridge}.
+\end{itemize}
+
+\end{rSection}
+
+%--- PROJECTS ---
+\begin{rSection}{Projects}
+\vspace{-3pt}
+\textbf{All-Spark --- Event Booking Platform} [\href{https://github.com/chirag1261/all-spark}{GitHub}] [\href{https://utsavevents.live}{Live}]: Solo-built Next.js/TypeScript/PostgreSQL platform --- \textit{Frontend:} seat-map booking, OTP accounts, QR tickets; \textit{Backend:} Razorpay payments with HMAC-verified webhooks, seat locking, notifications; \textit{Admin:} RBAC dashboard for bookings, refunds, and audit trail. \\[2pt]
+\textbf{Study Notion --- Ed Tech Platform:} React.js + Tailwind CSS frontend with reusable component library, responsive layouts, and RESTful API integration for instructor-learner flows. \\[2pt]
+\textbf{Shopingooo --- E-Commerce Platform:} React.js UI with Stripe payment flows, dynamic product pages, cart management, and Cloudinary media.
+\vspace{-4pt}
+\end{rSection}
+
+%--- EDUCATION ---
+\begin{rSection}{Education}
+\vspace{-3pt}
+\begin{tabularx}{\textwidth}{@{} X r @{}}
+\textbf{MCA} --- Masters in Computer Application, Vellore Institute of Technology & \textbf{2022 -- 2024} \quad CGPA: 8.89/10 \\
+\textbf{BCA} --- Bachelors in Computer Application, Kristu Jayanti College        & \textbf{2019 -- 2022} \quad CGPA: 9.04/10 \\
+\end{tabularx}
+\vspace{-4pt}
+\end{rSection}
+
+%--- ACHIEVEMENTS ---
+\begin{rSection}{Achievements}
+\vspace{-3pt}
+\begin{itemize}[leftmargin=1em,itemsep=-4pt,topsep=0pt]
+    \item \textbf{Troubleshooter, Top Rookie \& Spot Awards} --- Recognized for outstanding frontend contributions at Junglee Games.
+    \item \textbf{IBM Hackathon 2020} --- Runner-up; built rapid UI prototype under pressure demonstrating strong frontend execution.
+    \item \textbf{Competitive Programming} --- Solved 800+ problems on LeetCode and GeeksForGeeks; strong in DSA and problem-solving.
+\end{itemize}
+\end{rSection}
+
+\end{document}
